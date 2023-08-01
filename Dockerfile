@@ -7,7 +7,7 @@ USER jenkins
 WORKDIR /home/jenkins
 ENV FLASK_APP=app.py
 COPY requirements.txt requirements.txt
-RUN pip3 install --user -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 COPY . .
 
