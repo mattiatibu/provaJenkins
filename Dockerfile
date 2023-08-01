@@ -1,4 +1,4 @@
-FROM python:3.11.2-slim-bullseye as base
+FROM python:3.11.4-slim-bullseye
 WORKDIR /prova
 ENV FLASK_APP=app.py
 COPY requirements.txt requirements.txt
